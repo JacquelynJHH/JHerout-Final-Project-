@@ -1,0 +1,152 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Jacquelyn Herout
+   Date:     11/15/2024
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-image: url("background.jpg");
+}
+
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+header {
+    width: 910px;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #888888;
+    box-shadow: 10px 10px 5px 0 #888888;
+    border-radius: 10px;  	
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 50px 10px 50px 10px;
+    float: left;
+    text-align: left;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 12px;
+    color: rgb(32, 20, 3);
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: rgb(221, 210, 172);
+    border-radius: 10px;
+    color: rgb(202, 13, 44);
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-left: 1px solid;
+    border-right: 1px solid;    
+    background: rgb(215, 247, 247); 
+}
+
+#main p {
+    text-indent: 1.5em;
+    font-size: .75em;
+    padding: 10px;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 1em;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: left;
+}
+
+aside p {
+    text-align: center;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.0em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: .75em;
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(131, 130, 130);
+    clear: both;
+    color: wheat;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: rgb(3, 6, 17);
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
